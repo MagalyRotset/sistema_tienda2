@@ -1,0 +1,64 @@
+/* color del navbar*/
+
+.navbar {
+    background-color: #ff851b;
+}
+
+.navbar-brand {
+    color: white;
+    font-family: Geneva;
+    font-size: 25px;
+}
+
+.nav-link {
+    color: white;
+    font: 1em sans-serif;
+}
+
+.button {
+    background-color: #ff851b;
+}
+
+
+/* color del fondo de pantalla*/
+
+.fondo {
+    background: url(fondo.jpeg);
+    width: 100%;
+    font-family: arial;
+}
+
+
+/* Diseño de la tabla*/
+
+.table {
+    background-color: white;
+}
+
+.encabezado {
+    background-color: rgba(0, 0, 0, 0.63);
+    color: orange;
+}
+
+
+/* diseño del formulario*/
+
+.card-body {
+    background-color: rgba(0, 0, 0, .6);
+    color: white;
+}
+
+.card-header {
+    background-color: rgba(0, 0, 0, .6);
+    color: orange;
+}
+
+.custom-select {
+    width: 350px;
+    background-color: rgba(0, 0, 0, .6);
+    color: orange;
+}
+
+.inventario {
+    color: white;
+}

@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.titulo {
+    font-weight: normal;
+    font-family: sans-serif;
+    color: #ff851b;
+    text-align: center;
+    padding: 2px 0px;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+.titulo span {
+    color: #fff;
+}
+
+.container1-fluid {
+    width: 50%;
+    min-height: 100%;
+    height: auto !important;
+    position: fixed;
+    top: 0;
+    left: 50%;
+}
+
+.container2-fluid {
+    background: #e08127;
+    width: 50%;
+    min-height: 100%;
+    height: auto !important;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.container3 {
+    width: 100px;
+    min-height: 100px;
+}
+
+.iniciar {
+    width: 100%;
+    font-family: Roboto;
+    outline: none;
+    background: #ff851b;
+    font-size: 16px;
+    border: none;
+    border-radius: 7px;
+    color: #fff;
+    padding: 5px 0;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+
+.iniciar:hover {
+    background: #5c564d;
+}
+
+.input {
+    background: rgba(0, 0, 0, .7);
+    background: auto !important;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #ff851b;
+    width: 100%;
+    padding: 7px;
+    margin-bottom: 5px;
+    border-radius: 1px;
+    font-size: 15px;
+    color: #fff;
+    font-family: Roboto;
+}
+
+.formulario {
+    background: rgba(0, 0, 0, .6);
+    width: 90%;
+    max-width: 800px;
+    margin: auto;
+    padding: 5px 35px;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 3px;
+}
+
+
+/* agregar usuario*/
+
+.container3-fluid {
+    width: 100%;
+    min-height: 100%;
+    height: auto !important;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+
+/* agregar producto*/
+
+.container4-fluid {
+    width: 100%;
+    min-height: 100%;
+    height: auto !important;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.formulario2 {
+    background: rgba(0, 0, 0, .6);
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    padding: 5px 10px;
+    margin-top: 15 px;
+    padding-bottom: 10px;
+    border-radius: 3px;
+}
+
+.input2 {
+    background: rgba(0, 0, 0, .7);
+    background: auto !important;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #ff851b;
+    width: 100%;
+    padding: 7px;
+    margin-bottom: 5px;
+    border-radius: 1px;
+    font-size: 15px;
+    color: #fff;
+    font-family: Roboto;
+}
+
+
+/*navbar*/
+
+.navbar {
+    background-color: #ff851b !important;
+    box-shadow: 0 2px 4px 0 rgb(0, 0, 0, .05);
+    /*min-height: 100px;*/
+    min-height: 100px;
+}
+
+.nav-link {
+    color: #ffffff!important;
+    font-size: 20px;
+}
+
+.logo-brand {
+    min-width: 60px;
+    max-width: 70px;
+}
+
+.nav-item-i {
+    font-size: 20px;
+    color: #ffffff!important;
+}

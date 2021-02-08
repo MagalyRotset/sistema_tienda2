@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: url(https://fondosmil.com/fondo/24202.png);
+}
+
+
+/* barra de menú*/
+
+.sidebar {
+    position: fixed;
+    left: 0px;
+    width: 250px;
+    height: 100%;
+    background: hsl(45, 6%, 24%);
+    transition: all .5s ease;
+}
+
+.sidebar header {
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+    background: hsl(42, 6%, 33%);
+    user-select: none;
+}
+
+.sidebar ul a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 65px;
+    font-size: 20px;
+    color: white;
+    padding-left: 40px;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(255, 255, 255, .1);
+    border-bottom: 1px solid gray;
+    transition: .4s;
+}
+
+ul li:hover a {
+    padding-left: 45px;
+}
+
+.logo {
+    color: white;
+    text-align: center;
+}
+
+.container-fluid {
+    background: rgb(236, 136, 4);
+}
